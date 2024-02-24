@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Styles for the page body */
+header {
+    background-color: #87CEEB; /* Sky Blue */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #87CEEB; /* Sky Blue */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the border of the cars */
+.car {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the content */
+}
+
+.car img {
+    display: block; /* Make the image a block to center it */
+    margin: 0 auto; /* Center the image */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the car list */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Styles for car images */
+img {
+    width: 30%; /* Set the width of all images to 30% */
+    height: auto; /* This ensures that the height adjusts automatically to maintain the aspect ratio */
+    border-radius: 5px;
+}
+
+.car {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the content */
+}
+
+.car img {
+    display: block; /* Make the image a block to center it */
+    margin: 0 auto; /* Center the image */
+}

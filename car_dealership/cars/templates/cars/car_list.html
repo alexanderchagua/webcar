@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car List</title>
+    <!-- Load CSS file -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the Sale of the Most Luxurious Cars</h1>
+        <p>Discover our exclusive selection of luxury automobiles. Each vehicle is designed to provide an unparalleled driving experience and elegance.</p>
+    </header>
+
+    <h2>Car List</h2>
+    <ul>
+        {% for car in car_data %}
+        <li class="car">
+            <h3>{{ car.brand }} {{ car.model }}</h3>
+            <img src="{% static 'images/' %}{{ car.image }}" alt="{{ car.brand }} {{ car.model }}">
+            <p><strong>Price:</strong> ${{ car.price }}</p>
+            <p><strong>Color:</strong> {{ car.color }}</p>
+            <p>{{ car.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+        <p>by Alexander Chagua 2024</p>
+    </footer>
+</body>
+</html>

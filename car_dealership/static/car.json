@@ -1,0 +1,49 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Corolla",
+      "price": 20000,
+      "color": "Red",
+      "image": "toyota.jpg",
+      "description": "The Toyota Corolla is a compact sedan known for its reliability and efficiency. With a sleek and modern design, the Corolla is ideal for those seeking a practical and economical car."
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Civic",
+      "price": 22000,
+      "color": "Blue",
+      "image": "honda.jpg",
+      "description": "The Honda Civic is a versatile car that combines sporty design with comfort and advanced technology. With its excellent fuel economy and safety features, the Civic is a popular choice among budget-conscious drivers."
+    },
+    {
+      "id": 3,
+      "brand": "Ford",
+      "model": "Mustang",
+      "price": 35000,
+      "color": "Black",
+      "image": "mustang.jpg",
+      "description": "The Ford Mustang is an icon of American motoring, known for its powerful engine and timeless style. With its classic design and impressive performance, the Mustang offers an exciting and unique driving experience."
+    },
+    {
+      "id": 4,
+      "brand": "Chevrolet",
+      "model": "Camaro",
+      "price": 40000,
+      "color": "Yellow",
+      "image": "camaro.jpg",
+      "description": "The Chevrolet Camaro is a legendary muscle car that combines power and style in an exciting package. With its high-performance engine and aerodynamic design, the Camaro is a popular choice among motoring enthusiasts."
+    },
+    {
+      "id": 5,
+      "brand": "BMW",
+      "model": "X5",
+      "price": 60000,
+      "color": "White",
+      "image": "bmwx.jpg",
+      "description": "The BMW X5 is a luxury SUV that offers an exceptional combination of performance, comfort, and technology. With its sleek design and spacious interior, the X5 is perfect for road trips and urban adventures."
+    }
+  ]
+}
