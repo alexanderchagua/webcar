@@ -14,6 +14,6 @@
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Django]](https://www.djangoproject.com/)
-* [tutorialspoint]]([https://www.djangoproject.com/](https://www.tutorialspoint.com/django/index.htm))
+* [Django](https://www.djangoproject.com/)
+* [tutorialspoint]([https://www.djangoproject.com/](https://www.tutorialspoint.com/django/index.htm))
 * [This is my favorite link](https://www.w3schools.com/django/index.php)
